@@ -37,7 +37,7 @@ class ShipmentProduct
     private int $orderDetailId;
 
     /**
-     * @ORM\Column(name="quantity", type="integer")
+     * @ORM\Column(name="quantity", type="integer", nullable=true)
      */
     private int $quantity;
 
