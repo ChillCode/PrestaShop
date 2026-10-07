@@ -43,12 +43,12 @@ class ShopUrl
     private Shop $shop;
 
     /**
-     * @ORM\Column(name="domain", type="string", length=150)
+     * @ORM\Column(name="domain", type="string", length=255)
      */
     private string $domain;
 
     /**
-     * @ORM\Column(name="domain_ssl", type="string", length=150)
+     * @ORM\Column(name="domain_ssl", type="string", length=255)
      */
     private string $domainSsl;
 
